@@ -1,0 +1,121 @@
+@media (max-width: 576px) {
+    .wrapper {
+        padding-top: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0;
+    }
+    .wrapper__left {
+        display: none;
+    }
+    .wrapper__right {
+        width: 100%;
+    }
+    .block__logo {
+        width: 75px;
+        height: 72px;
+        margin-bottom: 5px;
+    }
+    .block__photo-box:nth-child(2) {
+        position: relative;
+        margin-bottom: 17px;
+        padding-top: 200px;
+        padding-left: 30px;
+        background-image: url(./img/photo-box2.jpeg);
+    }
+    .second-box {
+        width: 100%;
+        height: 286px;
+        padding-top: 200px;
+        padding-right: 40px;
+        padding-left: 30px;
+        padding-bottom: 40px;
+        /* padding-right: 67px; */
+    }
+    .block__title {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .second-box::before {
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 79px;
+        top: -30px;
+        left: 95px;
+        background-color: #D18929;
+    }
+    .second-box::after {
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 54px;
+        top: -10px;
+        left: 104px;
+        background-color: #D18929;
+    }
+    .block__title::before {
+        content: "";
+        position: absolute;
+        width: 119px;
+        height: 4px;
+        bottom: -28px;
+        right: -55px;
+        background-color: #D18929;
+    }
+    .block__title::after {
+        content: "";
+        position: absolute;
+        width: 81px;
+        height: 4px;
+        bottom: -12px;
+        right: -55px;
+        background-color: #D18929;
+    }
+    .address-hidden {
+        display: block;
+        position: relative;
+        top: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .block__address::before {
+        opacity: 0;
+    }
+    .block__list {
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+    .footer__list {
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 12px;
+        /* identical to box height */
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .footer__item {
+        padding-top: 17px;
+        padding-bottom: 24px;
+    }
+    .line-list::before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 6px;
+        top: -25px;
+        left: -15px;
+        background-color: #D18929;
+    }
+    .block__item {
+        padding-bottom: 25px;
+    }
+}
